@@ -3,7 +3,7 @@ import random
 import time
 
 
-# Time complexity = O(logn)
+# Binary search, time complexity = O(logn)
 def unimodal_max_extraction(unimodal_arr: list) -> Union[int, float]:
     # Python len() function returns an attribute that is already calculated. Thus, it runs O(1) time complexity.
     len_arr = len(unimodal_arr)
