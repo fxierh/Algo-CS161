@@ -1,2 +1,3 @@
-# Coursera-Algo-Specialization
-Coursera's algorithm specialization (4 algorithm courses based on Stanford CS161). 
+# Algo-Implementation
+Courses related: 
+1. Coursera's algorithm specialization (aka Stanford CS161). 
