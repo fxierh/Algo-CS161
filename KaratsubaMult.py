@@ -2,7 +2,7 @@ import math
 import time
 
 
-# Time complexity = O(n**log_2^3)
+# Time complexity = O(n**log_2^3), where n is the number of digits of both inputs
 def karatsuba_number_mult(x: int, y: int) -> int:
     assert x >= 0 and y >= 0, f"The two inputs should be NON-NEGATIVE integers. Here x = {x}, y = {y}."
     # Number of digits
