@@ -8,7 +8,7 @@ def karatsuba_number_mult(x: int, y: int) -> int:
     # Number of digits
     dig_x, dig_y = int(math.log10(x)) + 1 if x != 0 else 1, int(math.log10(y)) + 1 if y != 0 else 1
 
-    if dig_x == 1 or dig_y == 1:  # Base case: just use the naive grade-school multiplication method
+    if dig_x == 1 or dig_y == 1:  # Base case
         product = x*y
     else:
         # Split x, y into smaller numbers s.t. x = concatenate(ab), y = concatenate(cd). a, b, c, d are decimal numbers.

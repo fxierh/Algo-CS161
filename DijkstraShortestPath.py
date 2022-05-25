@@ -23,10 +23,10 @@ class Heap:
         for idx, node in enumerate(self.data):
             node.heap_index = idx
 
-    # Loop version of the heapify function (rearrange an array into a heap). Time complexity = O(n).
+    # Iterative heapify function (rearrange an array into a heap). Time complexity = O(n).
     # Recursion can be used as well.
     def heapify(self):
-        # For i = (len(self.data) - 2//2) downto 0: considering all nodes that has at least a child
+        # For i = ((len(self.data) - 2) // 2) downto 0: considering all nodes that has at least a child
         for node_idx in range((len(self.data) - 2) // 2, -1, -1):
             self.bubble_down(node_idx)
 
